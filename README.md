@@ -33,39 +33,14 @@ MySQL — Backend database
 IntelliJ IDEA / Eclipse
 
 📂 Project Structure
-Employee_Management_System/
-├── src/
-│   ├── Main.java
-│   ├── AddEmployee.java
-│   ├── ViewEmployee.java
-│   ├── UpdateEmployee.java
-│   ├── RemoveEmployee.java
-│   ├── Conn.java        # JDBC connection file
-│   └── ... other GUI files
-├── images/
-│   └── icons used in GUI
-└── README.md
+<img width="864" height="388" alt="image" src="https://github.com/user-attachments/assets/2bd6dada-3d9e-4a55-9a00-2899e7f4254b" />
+
 
 🗄️ Database Setup (MySQL)
 
 Create a database and table:
 
-CREATE DATABASE employee_management;
-
-USE employee_management;
-
-CREATE TABLE employee (
-    name VARCHAR(50),
-    fname VARCHAR(50),
-    dob VARCHAR(20),
-    salary VARCHAR(20),
-    address VARCHAR(100),
-    phone VARCHAR(20),
-    email VARCHAR(50),
-    education VARCHAR(50),
-    aadhar VARCHAR(20),
-    empId VARCHAR(20) PRIMARY KEY
-);
+<img width="553" height="528" alt="image" src="https://github.com/user-attachments/assets/659ec0d4-f4e5-4069-89d4-046e71adb37c" />
 
 
 Update your MySQL username and password inside Conn.java.
